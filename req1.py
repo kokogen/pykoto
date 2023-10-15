@@ -1,5 +1,6 @@
 import requests
 import json
+import os
 
 test_url = "https://httpbin.org/get"
 payload = {'page': 2, 'count': 30}
@@ -24,3 +25,5 @@ print("***************")
 
 x = req1(test_url, payload)
 print(x.text)
+
+print(os.path.basename(__file__)[:-1])

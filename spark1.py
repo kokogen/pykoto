@@ -16,5 +16,5 @@ df = spark.createDataFrame([
 ], schema='a long, b double, c string, d date, e timestamp')
 
 df.printSchema()
-df.
+
 
